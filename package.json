@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "http api assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jailynreese/http-api-assignment.git"
+  },
+  "author": "jailyn talabera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jailynreese/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/jailynreese/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
